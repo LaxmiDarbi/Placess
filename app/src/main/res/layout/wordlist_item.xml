@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="167dp"
+            android:layout_height="103dp"
+            app:srcCompat="@drawable/gol" />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="153dp"
+            android:layout_height="41dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="Name:GolGumbaz" />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="153dp"
+            android:layout_height="47dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/textview1"
+            android:text="Location:Vijaypur" />
+
+    </RelativeLayout>
+</LinearLayout>

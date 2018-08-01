@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.dslab.placess.MainActivity2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:id="@+id/imageview"
+        app:srcCompat="@drawable/gol"/>
+
+    <TextView
+        android:layout_width="121dp"
+        android:layout_height="31dp"
+        android:id="@+id/textview"
+        android:layout_centerInParent="true"
+        android:text="Name:GolGumbaz"
+        android:textColor="#F00766"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:id="@+id/textview3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:text="Description:Gol Gumbaz is the mausoleum of king Mohammed Adil Shah, Sultan of Bijapur. Construction of the tomb, located in Vijayapura (formerly Bijapur), Karnataka, India, was started in 1626 and completed in 1656. The name is based on Gola gummata derived from Gol Gombadh meaning=circular dome.[1] It follows the style of Deccan architecture."/>
+
+
+
+</RelativeLayout>
